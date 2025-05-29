@@ -123,6 +123,25 @@ header {
     left: 60%;
     text-shadow: 2px 2px 5px #7e0808;
 }
+#hero-btn{
+   padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+    background: none;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+ #hero-btn a { 
+    text-decoration: none;
+    font-family: guardian, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: var(--secondary-color);
+ }
 
 /*latest section*/
 #latest {
